@@ -1,0 +1,124 @@
+body{
+margin: 0;
+padding: 0;
+}
+
+nav{
+width: 100%;
+height: auto;    
+}
+
+.nav-list{
+width: 100%;
+display: flex;
+flex-flow: row wrap;
+list-style-type: none;
+justify-content: space-around;
+align-items: center;
+border-bottom: 3px solid black;
+    
+}
+
+.nav-list a{
+text-decoration: none;
+font-size: 25px;
+color: black;
+}
+
+
+.languages img{
+width: 50%;
+border-radius: 50%;
+}
+
+.languages{
+width: 10%;
+display: flex;
+}
+
+
+#header-banner{  
+width: 95%;
+margin-left: 2.5%;
+}
+
+.main-content-container{
+width: 99.9%;
+border: 2px solid black;
+display: flex;
+height: 250;
+border-left: none;
+}
+
+.seneste-opslag{
+width: 80%;
+display: flex;
+flex-flow: row wrap;
+justify-content: space-around;
+align-items: center;
+
+height: 300px;
+}
+
+.om{
+    width: 20%;
+    height: 300px;
+    border-left: 2px solid black;
+}
+
+.opslag{
+width: 20%;
+border: 2px solid black;
+height: ;
+display: flex;
+flex-flow:  column wrap;
+}
+
+.opslag img{
+width: 80%;
+margin-left: 10%;
+margin-top: 5%;
+} 
+
+
+
+footer{
+width: 100%;
+display: flex;
+flex-flow: row wrap;
+margin-top: 0.5%;
+}
+
+.adresse{
+width: 80%;
+}
+
+.social-medias{
+width: 19.7%;
+height: 20px;
+display: flex;
+flex-flow: row wrap;
+}
+
+.social-medias img{
+width: auto;
+height: 30px;
+border-radius: 40px;
+margin-left: 3%;
+}
+
+
+.infografic{
+  display: block;
+  margin-left: 25%;
+  margin-right: 25%;
+  width: auto;
+}
+
+.infografic img {
+  width: 100%;
+  height: 
+  border-radius: 40px;
+  margin-top: auto
+}
+    
